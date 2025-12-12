@@ -30,7 +30,6 @@ class WeatherApp(QWidget):
 
         self.city.setAlignment(Qt.AlignCenter)
         self.city_input.setAlignment(Qt.AlignCenter)
-        self.get_weather.setAlignment(Qt.AlignCenter)
         self.temperature.setAlignment(Qt.AlignCenter)
         self.emoji.setAlignment(Qt.AlignCenter)
         self.descrption.setAlignment(Qt.AlignCenter)
@@ -152,4 +151,5 @@ if __name__ =="__main__":
     weather_app=WeatherApp()
     weather_app.show()
     sys.exit(app.exec_())
+
 
